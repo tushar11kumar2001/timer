@@ -1,0 +1,95 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .border{
+    border: 2px solid black;
+    padding: 5px;
+} */
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.mainframe {
+    width: 100vw;
+    height: 100vh;
+    background: #0d1321;
+    position: relative;
+
+}
+
+.body {
+    border: 2px solid black;
+    width: 20%;
+    height: auto;
+    padding: 1.5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+
+    background: #3e5c76;
+    border-radius: 10px;
+}
+
+.input {
+    height: 2.5rem;
+    width: 10rem;
+    outline: unset;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.text {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+
+    text-align: center;
+
+}
+
+.btn {
+    padding: 10px 35px;
+    font-weight: 600;
+    font-size: 1.2em;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.start {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-play"><polygon points="5 3 19 12 5 21 5 3"/></svg>'), auto;
+    background-color: green;
+
+}
+
+.reset {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-rotate-ccw"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>'), auto;
+    background-color: red;
+    text-decoration: line-through;
+}
+
+
+
+.d1 {
+    /* border: 2px solid; */
+    height: 2.5rem;
+    width: 6rem;
+    text-align: center;
+    font-size: 30px;
+
+}
